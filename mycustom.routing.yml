@@ -1,0 +1,7 @@
+mycustom.welcome:
+  path: '/welcome/page'
+  defaults:
+    _controller: '\Drupal\mycustom\Controller\WelcomeController::welcome'
+    _title: "Welcome to my custom module in Drupal 9"
+  requirements: 
+    _permission: 'access content'
